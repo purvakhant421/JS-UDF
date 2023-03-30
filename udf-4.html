@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    function checkNumber(w, x, y, z) {
+        if (a > b && a > c && a > d) 
+        {
+            document.write("<h1>A is greater.</h1>");
+        } 
+        else if (b > a && b > c && b > d)
+        {
+            document.write("<h1> B is greter</h1>");
+        } 
+        else if (c > a && c > b && c > d) 
+        {
+            document.write("<h1> C is greter</h1>");
+        
+        } 
+        else if (d > a && d > b && d > c) 
+        {
+            document.write("<h1>D is greter</h1>");
+        } 
+        else 
+        {
+            document.write("<h1> You enter same number</h1>")
+        }
+      }
+      var a = parseInt(prompt("Enter First number"));
+      var b = parseInt(prompt("Enter Second number"));
+      var c = parseInt(prompt("Enter Third number"));
+      var d = parseInt(prompt("Enter Fourth number"));
+      checkNumber(a, b, c, d);
+</script>

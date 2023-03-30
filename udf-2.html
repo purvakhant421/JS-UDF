@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    function demo(){
+        var a = parseInt(prompt("Enter a number: "));
+
+        if (a > 0){
+            return 1;
+        }
+        else if(a < 0){
+            return 2;
+        }
+        else if(a == 0){
+            return 3;
+        }
+        else{
+            return 4;
+        }
+    } 
+    var ans = demo();
+
+    if(ans==1){
+        document.write("<h1>Number is positive</h1>");
+    }
+    else if(ans == 2){
+        document.write("<h1>Number is nagative</h1>");
+    }
+    else if(ans == 3){
+        document.write("<h1>Number is Zero</h1>");
+    }
+    else{
+        document.write("<h1>Invalid input</h1>")
+    }
+</script>
